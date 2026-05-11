@@ -2,7 +2,7 @@ import { connect } from "cloudflare:sockets";
 
 // Variables
 let serviceName = "";
-let APP_DOMAIN = "";
+let APP_DOMAIN = "zetsu.lutfiserver.my.id";
 
 let prxIP = "";
 let cachedPrxList = [];
@@ -18,7 +18,7 @@ const PROTOCOLS = [atob(horse), atob(flash), atob(neko), "ss"];
 const SUB_PAGE_URL = "https://foolvpn.web.id/nautica";
 const KV_PRX_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/kvProxyList.json";
 const PRX_BANK_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/proxyList.txt";
-const DNS_SERVER_ADDRESS = "8.8.8.8";
+const DNS_SERVER_ADDRESS = "1.1.1.1";
 const DNS_SERVER_PORT = 53;
 const RELAY_SERVER_UDP = {
   host: "udp-relay.hobihaus.space", // Kontribusi atau cek relay publik disini: https://hub.docker.com/r/kelvinzer0/udp-relay
